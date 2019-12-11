@@ -14,10 +14,23 @@
     justify-content: space-between;
     align-items: center;
     width: 1000px;
-    align-text: center;
+    text-emphasis: center;
     padding: 0 10px;
     font-size: 13px;
     filter: brightness(80%);
     font-family: 'Montserrat', sans-serif;
-    ;
+}
+
+.nav-wrapper>.nav-links>.link a {
+    text-decoration: none;
+    color: #f5f5f7;
+    opacity: .8;
+    transform: 0.5s;
+}
+
+.nav-wrapper>.nav-links>.link a:hover {
+    color: #fff;
+    opacity: 1;
+    font-weight: 400;
+
 }
